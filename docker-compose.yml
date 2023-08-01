@@ -15,3 +15,5 @@ services:
       mode: global
     ports:
       - '9100:9100'
+    labels:
+      job: node-exporter
